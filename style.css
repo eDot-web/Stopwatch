@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background: url("./44.jpg") no-repeat fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header{
+    text-align: center;
+    font-size: 7vh;
+    margin-top: 10px;
+}
+
+#time{
+    font-size: 10vh;
+    text-align: center;
+}
+
+#lapt{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.control{
+    color: tomato;
+    background-color: black;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 70%;
+    text-align: center;
+    font-size: 2.5vh;
+    padding-top: 20px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.control:active{
+    color: black;
+    background-color: tomato;
+}
+
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.lapsadded{
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
